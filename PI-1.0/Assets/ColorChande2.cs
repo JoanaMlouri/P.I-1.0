@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ColorChange : MonoBehaviour
+public class ColorChande2 : MonoBehaviour
 {
     // Defina as cores para alternar
     public Color color1 = Color.red;
@@ -18,10 +18,9 @@ public class ColorChange : MonoBehaviour
         // Define a cor inicial
         objectRenderer.material.color = color1;
     }
-
-    void OnMouseDown()
+    private void OnMouseEnter()
     {
-        // Alterna a cor do objeto quando for clicado
+        //Quando o cursor passa por cima // Alterna a cor do objeto quando for clicado
         if (isColor1)
         {
             objectRenderer.material.color = color2;
@@ -33,9 +32,4 @@ public class ColorChange : MonoBehaviour
 
         isColor1 = !isColor1;
     }
-    
-   
-   
-   
-   
 }
