@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ColorChange : MonoBehaviour
 {
     // Defina as cores para alternar
     public Color color1 = Color.red;
