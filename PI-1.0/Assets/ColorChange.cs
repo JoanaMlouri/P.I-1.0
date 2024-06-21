@@ -34,8 +34,4 @@ public class ColorChange : MonoBehaviour
         isColor1 = !isColor1;
     }
     
-   
-   
-   
-   
 }
