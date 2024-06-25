@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
-public class GameController : MonoBehaviour
+public class GameControllerr : MonoBehaviour
 {
     public int score = 0;
     public Text scoreText;
@@ -45,6 +45,6 @@ public class GameController : MonoBehaviour
     void ChangeScene()
     {
         // Substitua "NextSceneName" pelo nome da cena que você deseja carregar
-        SceneManager.LoadScene("Segunda fase");
+        SceneManager.LoadScene("Terceira fase");
     }
 }

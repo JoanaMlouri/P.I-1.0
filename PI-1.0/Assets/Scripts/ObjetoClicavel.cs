@@ -14,15 +14,18 @@ public class ObjetoClicavel : MonoBehaviour
         gameController = GameObject.Find("GameController").GetComponent<GameController>();
         // Obter o componente Collider do objeto
         objectCollider = GetComponent<Collider2D>();
+        // Adicionar este objeto à lista de objetos clicáveis no GameController
+        gameController.RegisterClickableObject(this);
     }
 
     void OnMouseDown()
     {
-        // Quando o objeto é clicado, adicione pontos e desative o collider
+        // Quando o objeto é clicado, adicione pontos, desative o collider e notifique o GameController
         if (gameController != null && objectCollider != null)
         {
             gameController.AddPoints(points);
             objectCollider.enabled = false; // Desativar o collider para impedir cliques futuros
+            gameController.ObjectClicked(this); // Notificar o GameController
         }
     }
 }
