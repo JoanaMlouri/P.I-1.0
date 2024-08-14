@@ -5,8 +5,8 @@ using UnityEngine;
 public class ColorChange : MonoBehaviour
 {
     // Defina as cores para alternar
-    public Color color1 = Color.red;
-    public Color color2 = Color.white;
+    public Color color1 = Color.white;
+    public Color color2 = Color.red;
 
     private Renderer objectRenderer;
     private bool isColor1 = true;
