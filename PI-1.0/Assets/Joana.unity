@@ -470,6 +470,7 @@ GameObject:
   - component: {fileID: 815673060}
   - component: {fileID: 815673061}
   - component: {fileID: 815673062}
+  - component: {fileID: 815673063}
   m_Layer: 0
   m_Name: MoveOnClick
   m_TagString: Untagged
@@ -598,6 +599,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 1, g: 1, b: 1, a: 1}
   color2: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &815673063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815673057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &1258618618
 GameObject:
   m_ObjectHideFlags: 0
