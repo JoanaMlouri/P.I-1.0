@@ -18,8 +18,8 @@ public class FallOnClick : MonoBehaviour
             rb = gameObject.AddComponent<Rigidbody2D>();
         }
 
-        // Desativa a gravidade inicialmente para que o objeto não caia
-        rb.gravityScale = 0;
+        // Desativa o Rigidbody2D inicialmente para que o objeto não caia
+        rb.isKinematic = true;
     }
 
     void OnMouseDown()
@@ -28,8 +28,8 @@ public class FallOnClick : MonoBehaviour
         if (hasFallen)
             return;
 
-        // Ativa a gravidade, fazendo o objeto cair
-        rb.gravityScale = 1;
+        // Ativa o Rigidbody2D, fazendo o objeto cair
+        rb.isKinematic = false;
 
         hasFallen = true; // Marca que o objeto já caiu
     }

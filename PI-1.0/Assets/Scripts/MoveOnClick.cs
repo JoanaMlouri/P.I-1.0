@@ -4,42 +4,32 @@ using UnityEngine;
 
 public class MoveOnClick : MonoBehaviour
 {
-    public float moveDistance = 1.0f; // Distância que o objeto vai se mover
-    public float speed = 2.0f; // Velocidade de movimento
-    private Vector3 targetPosition;
-    private bool isMoving = false;
-    private bool hasMoved = false; // Flag para verificar se já moveu
+    // Defina a posição de destino para onde o objeto será movido
+    public Vector3 targetPosition;
+    // Defina a velocidade do movimento
+    public float moveSpeed = 5f;
 
-    void Start()
-    {
-        targetPosition = transform.position;
-    }
+    private bool isMoving = false;
 
     void Update()
     {
-        // Verifica se o objeto está se movendo e continua o movimento
+        // Verifica se o objeto está se movendo
         if (isMoving)
         {
-            // Move o objeto na direção da posição alvo
-            transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+            // Move o objeto em direção à posição de destino
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
 
-            // Verifica se o objeto chegou à posição alvo
-            if (transform.position == targetPosition)
+            // Verifica se o objeto chegou à posição de destino
+            if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
             {
-                isMoving = false;
+                isMoving = false; // Para o movimento
             }
         }
     }
 
+    // Este método será chamado quando o objeto for clicado
     void OnMouseDown()
     {
-        // Verifica se o objeto já foi movido
-        if (hasMoved)
-            return;
-
-        // Define a nova posição alvo para frente (eixo Y)
-        targetPosition += transform.up * moveDistance;
-        isMoving = true;
-        hasMoved = true; // Marca que o objeto já se moveu
+        isMoving = true; // Inicia o movimento do objeto
     }
 }
