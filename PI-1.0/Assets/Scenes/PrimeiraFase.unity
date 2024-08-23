@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &251068300
 BoxCollider2D:
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &920122971
 BoxCollider2D:
@@ -1116,7 +1116,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.7276166, g: 0.74916196, b: 0.7830189, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20784314, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &1187518961
 BoxCollider2D:
@@ -1529,7 +1529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24528301, g: 0.20478816, b: 0.20478816, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &1315372224
 BoxCollider2D:
@@ -1655,7 +1655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &1327774484
 BoxCollider2D:
@@ -1781,7 +1781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &1343653639
 BoxCollider2D:
@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &1376900318
 BoxCollider2D:
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &1431757170
 BoxCollider2D:
@@ -2394,7 +2394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &1782334295
 BoxCollider2D:
@@ -2736,7 +2736,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7d07cfe27da47794db15f7b9ace6e476, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3040,7 +3040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &2133313156
 BoxCollider2D:
@@ -3307,7 +3307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4bb05b8b4720c48b9ce9e2b5dfaf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 1}
+  color1: {r: 0.24705882, g: 0.20392157, b: 0.20392157, a: 1}
   color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!61 &2146230844
 BoxCollider2D:
