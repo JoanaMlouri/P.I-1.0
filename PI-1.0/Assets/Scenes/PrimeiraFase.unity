@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &467768252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &490743065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -894,7 +894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &1034229621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &1047157103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1384,7 +1384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &1295350428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2248,7 +2248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &1502168719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2576,7 +2576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &2039840227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2892,7 +2892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &2112300564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3158,7 +3158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 0}
+  mouseOverTexture: {fileID: 2800000, guid: 57f3b844192b1f848860c3b91d053e8a, type: 3}
 --- !u!114 &2145949237
 MonoBehaviour:
   m_ObjectHideFlags: 0
