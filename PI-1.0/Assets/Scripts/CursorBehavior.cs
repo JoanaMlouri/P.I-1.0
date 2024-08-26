@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class CursorBehavior : MonoBehaviour
 {
-    public Texture2D cursorTexture; // Textura do novo cursor
-    public Vector2 hotSpot = Vector2.zero; // Ponto ativo do cursor (pode ser ajustado)
+    public Texture2D mouseOverTexture; // A nova textura do mouse quando sobre o objeto
 
     void OnMouseEnter()
     {
-        // Muda o cursor para a nova textura quando o mouse passa sobre o objeto
-        Cursor.SetCursor(cursorTexture, hotSpot, CursorMode.Auto);
+        // Altera a textura do cursor para a nova
+        Cursor.SetCursor(mouseOverTexture, Vector2.zero, CursorMode.Auto);
     }
 
     void OnMouseExit()
     {
-        // Restaura o cursor para o padrão do sistema quando o mouse sai do objeto
+        // Retorna ao cursor padrão do sistema
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 }
