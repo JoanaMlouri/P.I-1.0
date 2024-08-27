@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 169367554}
   - component: {fileID: 169367553}
   m_Layer: 0
-  m_Name: pixilart-drawing (13)
+  m_Name: Quadro2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &169367554
 MonoBehaviour:
@@ -252,7 +252,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a8d12ed5c72db8e449c425f75897ba4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 467768252}
   - component: {fileID: 467768251}
   m_Layer: 0
-  m_Name: pixilart-drawing (8)
+  m_Name: Vela
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &467768252
 MonoBehaviour:
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 490743065}
   - component: {fileID: 490743064}
   m_Layer: 0
-  m_Name: pixil-frame-0 (2)
+  m_Name: Livros2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &490743065
 MonoBehaviour:
@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 1034229621}
   - component: {fileID: 1034229620}
   m_Layer: 0
-  m_Name: pixilart-drawing (4)
+  m_Name: Documento
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &1034229621
 MonoBehaviour:
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 1047157103}
   - component: {fileID: 1047157102}
   m_Layer: 0
-  m_Name: pixilart-drawing (9)
+  m_Name: Livros3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &1047157103
 MonoBehaviour:
@@ -1304,7 +1304,7 @@ GameObject:
   - component: {fileID: 1295350428}
   - component: {fileID: 1295350427}
   m_Layer: 0
-  m_Name: pixil-frame-0 (2)
+  m_Name: Estatua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &1295350428
 MonoBehaviour:
@@ -2169,7 +2169,7 @@ GameObject:
   - component: {fileID: 1502168719}
   - component: {fileID: 1502168718}
   m_Layer: 0
-  m_Name: pixilart-drawing (5)
+  m_Name: Flores
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &1502168719
 MonoBehaviour:
@@ -2550,7 +2550,7 @@ GameObject:
   - component: {fileID: 2039840227}
   - component: {fileID: 2039840226}
   m_Layer: 0
-  m_Name: New Piskel (7) (2)
+  m_Name: Quadro1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2583,7 +2583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &2039840227
 MonoBehaviour:
@@ -2665,7 +2665,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 353638e4613dcb740b9eba0d6c447706, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2815,7 +2815,7 @@ GameObject:
   - component: {fileID: 2112300564}
   - component: {fileID: 2112300563}
   m_Layer: 0
-  m_Name: pixilart-drawing (1)
+  m_Name: Livros1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2900,7 +2900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &2112300564
 MonoBehaviour:
@@ -3082,7 +3082,7 @@ GameObject:
   - component: {fileID: 2145949237}
   - component: {fileID: 2145949236}
   m_Layer: 0
-  m_Name: pixil-frame-0
+  m_Name: "Ta\xE7a"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3167,7 +3167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 7462301197750e94092c3e434951a3a6, type: 3}
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
   hotspot: {x: 0, y: 0}
 --- !u!114 &2145949237
 MonoBehaviour:
