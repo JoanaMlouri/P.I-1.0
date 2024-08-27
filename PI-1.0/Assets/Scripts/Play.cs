@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class Play : MonoBehaviour
 {
-    public void play()
-    {
+    // Nome da cena que você quer carregar
+    public string sceneName;
 
-        SceneManager.LoadScene("PrimeiraFase");    
-        
+    // Função que será chamada ao pressionar o botão
+    public void ChangeScene()
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }
