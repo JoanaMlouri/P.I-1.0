@@ -3720,6 +3720,7 @@ GameObject:
   - component: {fileID: 2078818514}
   - component: {fileID: 2078818517}
   - component: {fileID: 2078818516}
+  - component: {fileID: 2078818518}
   m_Layer: 0
   m_Name: pixilart-drawing (8)
   m_TagString: Untagged
@@ -3787,8 +3788,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078818513}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.998, y: 0.443, z: 0}
-  m_LocalScale: {x: 1.5710585, y: 1.141947, z: 0.98232}
+  m_LocalPosition: {x: 0.889, y: 0.503, z: 0}
+  m_LocalScale: {x: 1.6425649, y: 1.1683732, z: 0.98232}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3832,6 +3833,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &2078818518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078818513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
 --- !u!1 &2100002007
 GameObject:
   m_ObjectHideFlags: 0
