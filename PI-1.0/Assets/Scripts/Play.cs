@@ -10,7 +10,7 @@ public class Play : MonoBehaviour
     public string sceneName;
 
     // Função que será chamada ao pressionar o botão
-    public void ChangeScene()
+    public void Jogar()
     {
         SceneManager.LoadScene(sceneName);
     }
