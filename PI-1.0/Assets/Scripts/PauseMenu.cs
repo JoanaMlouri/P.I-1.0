@@ -8,6 +8,11 @@ public class PauseMenu : MonoBehaviour
 {
     public Transform pauseMenu;
     // Update is called once per frame
+
+    public void Start()
+    {
+        Time.timeScale = 1;
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
