@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 385c330b0c57cce40b4ac2c9c1d0d0ff
+guid: 14ed9674cee78814483ba7d620000cf0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: rat animation (1)_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 36
+        width: 249
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97535496b02870c488dcf631ebb9dc50
+      internalID: -169427848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat animation (1)_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 35
+        width: 249
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c522e47a8561a944282660a944fed014
+      internalID: -1504054806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat animation (1)_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 36
+        width: 249
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a18b104209c4a42875e5a1c5a94551
+      internalID: 464869348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat animation (1)_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 35
+        width: 249
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9310b0c7b72843d48b053306167378b6
+      internalID: -942116281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat animation (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 35
+        width: 249
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ade977367bbd34993248c0a6a1c464
+      internalID: -351742699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +219,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rat animation (1)_0: -169427848
+      rat animation (1)_2: 464869348
+      rat animation (1)_3: -942116281
+      rat animation (1)_4: -351742699
+      rat animation (1)_1: -1504054806
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
