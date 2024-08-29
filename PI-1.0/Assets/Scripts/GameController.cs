@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using UnityEngine.UIElements;
 
 public class GameController : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class GameController : MonoBehaviour
     public Text scoreText;
     public string text;
     public List<ObjetoClicavel> clickableObjects = new List<ObjetoClicavel>();
-
+    public float points;
     void Start()
     {
         UpdateScoreText();
@@ -46,6 +47,11 @@ public class GameController : MonoBehaviour
     void ChangeScene()
     {
         // Substitua "NextSceneName" pelo nome da cena que você deseja carregar
-        SceneManager.LoadScene("Segunda fase");
+        
+        if(points >= 11) 
+        {
+            SceneManager.LoadScene("Segunda fase");
+
+        }
     }
 }
