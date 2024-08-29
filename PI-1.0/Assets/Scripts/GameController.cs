@@ -7,7 +7,8 @@ public class GameController : MonoBehaviour
 {
     public int score = 0;
     public Text scoreText;
-    private List<ObjetoClicavel> clickableObjects = new List<ObjetoClicavel>();
+    public string text;
+    public List<ObjetoClicavel> clickableObjects = new List<ObjetoClicavel>();
 
     void Start()
     {

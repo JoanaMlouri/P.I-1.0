@@ -43,4 +43,8 @@ public class PauseMenu : MonoBehaviour
     {
         throw new NotImplementedException();
     }
+    public void Next()
+    {
+        SceneManager.LoadScene("Terceira fase");
+    }
 }
