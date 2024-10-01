@@ -11,9 +11,12 @@ public class GameController : MonoBehaviour
     public string text;
     public List<ObjetoClicavel> clickableObjects = new List<ObjetoClicavel>();
     public float points;
+    public string nextSceneName; // Nome da cena para trocar
+    public UnityEngine.UI.Button nextButton; // Referência para o botão que aparece quando as peças estiverem encaixadas
     void Start()
     {
         UpdateScoreText();
+        nextButton.gameObject.SetActive(false);
     }
 
     public void AddPoints(int points)
@@ -38,20 +41,19 @@ public class GameController : MonoBehaviour
     public void ObjectClicked(ObjetoClicavel clickableObject)
     {
         clickableObjects.Remove(clickableObject);
-        if (clickableObjects.Count == 0)
+        if (clickableObjects.Count == 11)
         {
-            ChangeScene();
+            ShowNextButton();
         }
     }
-
-    void ChangeScene()
+    void ShowNextButton()
     {
-        // Substitua "NextSceneName" pelo nome da cena que você deseja carregar
-        
-        if(points >= 11) 
-        {
-            SceneManager.LoadScene("Segunda fase");
+        // Ativa o botão
+        nextButton.gameObject.SetActive(true);
+    }
+    public void NextButton()
+    {
 
-        }
+        SceneManager.LoadScene("Final");
     }
 }
