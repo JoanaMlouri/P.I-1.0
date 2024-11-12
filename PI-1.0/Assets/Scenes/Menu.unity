@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 302491426}
   - component: {fileID: 302491425}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 502219599}
   - component: {fileID: 502219602}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -686,7 +686,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 502219600}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1470185021}
+        m_TargetAssemblyTypeName: Credits, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &502219600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,7 +749,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2680db4fcf34a3f4aa7ca0d65acb893e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Terceirafase: Terceira fase
 --- !u!1 &927935535
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,6 +960,7 @@ GameObject:
   - component: {fileID: 1470185019}
   - component: {fileID: 1470185018}
   - component: {fileID: 1470185020}
+  - component: {fileID: 1470185021}
   m_Layer: 0
   m_Name: MenuManenger
   m_TagString: Untagged
@@ -994,6 +1006,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ad635fe10d83c043897d692cd043a1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1470185021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470185017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2680db4fcf34a3f4aa7ca0d65acb893e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1690402882

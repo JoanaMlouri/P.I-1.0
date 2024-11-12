@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Credits : MonoBehaviour
+public class Back : MonoBehaviour
 {
-    public void ChangeScene()
+    public void back()
     {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("Menu");
     }
 }

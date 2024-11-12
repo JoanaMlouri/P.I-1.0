@@ -54,6 +54,6 @@ public class GameController : MonoBehaviour
     public void NextButton()
     {
 
-        SceneManager.LoadScene("Final");
+        SceneManager.LoadScene("Segunda fase");
     }
 }
