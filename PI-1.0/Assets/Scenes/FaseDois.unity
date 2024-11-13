@@ -218,7 +218,8 @@ GameObject:
   - component: {fileID: 64834923}
   - component: {fileID: 64834922}
   - component: {fileID: 64834926}
-  - component: {fileID: 64834925}
+  - component: {fileID: 64834928}
+  - component: {fileID: 64834927}
   - component: {fileID: 64834924}
   m_Layer: 0
   m_Name: pixil-frame-0 (23)
@@ -308,19 +309,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -9.209999, y: -3.06, z: 0}
   moveSpeed: 5
---- !u!114 &64834925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64834921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &64834926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -347,6 +335,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &64834927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64834921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &64834928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64834921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &134116487
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 210000084}
-  - component: {fileID: 210000083}
+  - component: {fileID: 210000085}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -475,34 +490,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &210000083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210000082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83360583c36337e4fb6408007128a23e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  scoreText: {fileID: 1308790723}
-  text: 
-  clickableObjects:
-  - {fileID: 210149707}
-  - {fileID: 849015450}
-  - {fileID: 1943962487}
-  - {fileID: 1676786340}
-  - {fileID: 703727807}
-  - {fileID: 939030055}
-  - {fileID: 1866411547}
-  - {fileID: 64834925}
-  - {fileID: 379697774}
-  points: 0
-  nextSceneName: Segunda fase
-  nextButton: {fileID: 518847062}
 --- !u!4 &210000084
 Transform:
   m_ObjectHideFlags: 0
@@ -518,6 +505,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &210000085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210000082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017d72c814884234bb06dcf800c0b43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreText: {fileID: 1308790723}
+  text: 
+  clickableObjects:
+  - {fileID: 210149710}
+  - {fileID: 849015453}
+  - {fileID: 1943962490}
+  - {fileID: 1676786343}
+  - {fileID: 703727811}
+  - {fileID: 939030058}
+  - {fileID: 1866411550}
+  - {fileID: 64834928}
+  - {fileID: 379697777}
+  points: 0
+  nextSceneName: Segunda fase
+  nextButton: {fileID: 518847062}
 --- !u!1 &210149703
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,9 +543,10 @@ GameObject:
   m_Component:
   - component: {fileID: 210149705}
   - component: {fileID: 210149704}
+  - component: {fileID: 210149709}
   - component: {fileID: 210149706}
-  - component: {fileID: 210149707}
   - component: {fileID: 210149708}
+  - component: {fileID: 210149710}
   m_Layer: 0
   m_Name: pixil-frame-0 (15) (1)
   m_TagString: Untagged
@@ -619,19 +635,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -7.819999, y: 1.68, z: 0}
   moveSpeed: 5
---- !u!114 &210149707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210149703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &210149708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -658,6 +661,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &210149709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210149703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &210149710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210149703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &379697770
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +699,8 @@ GameObject:
   - component: {fileID: 379697772}
   - component: {fileID: 379697771}
   - component: {fileID: 379697775}
-  - component: {fileID: 379697774}
+  - component: {fileID: 379697777}
+  - component: {fileID: 379697776}
   - component: {fileID: 379697773}
   m_Layer: 0
   m_Name: pixil-frame-0 (24)
@@ -759,19 +790,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -9.27, y: 4.030001, z: 0}
   moveSpeed: 5
---- !u!114 &379697774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379697770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &379697775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -798,6 +816,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &379697776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379697770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &379697777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379697770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &518847060
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,7 +861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &518847061
 RectTransform:
   m_ObjectHideFlags: 0
@@ -881,8 +926,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 210000083}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+      - m_Target: {fileID: 210000085}
+        m_TargetAssemblyTypeName: GameControllerr, Assembly-CSharp
         m_MethodName: NextButton
         m_Mode: 1
         m_Arguments:
@@ -1044,8 +1089,9 @@ GameObject:
   - component: {fileID: 703727806}
   - component: {fileID: 703727805}
   - component: {fileID: 703727809}
+  - component: {fileID: 703727811}
+  - component: {fileID: 703727810}
   - component: {fileID: 703727808}
-  - component: {fileID: 703727807}
   m_Layer: 0
   m_Name: pixil-frame-0 (17)
   m_TagString: Untagged
@@ -1120,19 +1166,6 @@ Transform:
   m_Father: {fileID: 1807245951}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &703727807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703727804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!114 &703727808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1173,6 +1206,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &703727810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703727804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &703727811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703727804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &849015446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,8 +1244,9 @@ GameObject:
   - component: {fileID: 849015448}
   - component: {fileID: 849015447}
   - component: {fileID: 849015449}
-  - component: {fileID: 849015450}
   - component: {fileID: 849015451}
+  - component: {fileID: 849015453}
+  - component: {fileID: 849015452}
   m_Layer: 0
   m_Name: pixil-frame-0 (14) (1)
   m_TagString: Untagged
@@ -1274,19 +1335,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -8.88, y: 2.45, z: 0}
   moveSpeed: 5
---- !u!114 &849015450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849015446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &849015451
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1313,6 +1361,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &849015452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849015446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &849015453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849015446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &939030051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,7 +1399,8 @@ GameObject:
   - component: {fileID: 939030053}
   - component: {fileID: 939030052}
   - component: {fileID: 939030056}
-  - component: {fileID: 939030055}
+  - component: {fileID: 939030058}
+  - component: {fileID: 939030057}
   - component: {fileID: 939030054}
   m_Layer: 0
   m_Name: pixil-frame-0 (21)
@@ -1414,19 +1490,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -7.919999, y: -3.61, z: 0}
   moveSpeed: 5
---- !u!114 &939030055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939030051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &939030056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1453,6 +1516,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &939030057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939030051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &939030058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939030051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &961591643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,8 +2138,9 @@ GameObject:
   - component: {fileID: 1676786338}
   - component: {fileID: 1676786337}
   - component: {fileID: 1676786339}
-  - component: {fileID: 1676786340}
   - component: {fileID: 1676786341}
+  - component: {fileID: 1676786343}
+  - component: {fileID: 1676786342}
   m_Layer: 0
   m_Name: pixil-frame-0 (19)
   m_TagString: Untagged
@@ -2138,19 +2229,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -8.079999, y: 4.33, z: 0}
   moveSpeed: 5
---- !u!114 &1676786340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676786336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &1676786341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2177,6 +2255,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1676786342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676786336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &1676786343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676786336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &1695481068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2365,7 +2470,8 @@ GameObject:
   - component: {fileID: 1866411545}
   - component: {fileID: 1866411544}
   - component: {fileID: 1866411548}
-  - component: {fileID: 1866411547}
+  - component: {fileID: 1866411550}
+  - component: {fileID: 1866411549}
   - component: {fileID: 1866411546}
   m_Layer: 0
   m_Name: pixil-frame-0 (22)
@@ -2455,19 +2561,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -9.389999, y: -0.63, z: 0}
   moveSpeed: 5
---- !u!114 &1866411547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866411543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &1866411548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2494,6 +2587,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1866411549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866411543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &1866411550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866411543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &1943962483
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,8 +2625,9 @@ GameObject:
   - component: {fileID: 1943962485}
   - component: {fileID: 1943962484}
   - component: {fileID: 1943962486}
-  - component: {fileID: 1943962487}
   - component: {fileID: 1943962488}
+  - component: {fileID: 1943962490}
+  - component: {fileID: 1943962489}
   m_Layer: 0
   m_Name: pixil-frame-0 (18) (1)
   m_TagString: Untagged
@@ -2595,19 +2716,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: -9.11, y: -4.5, z: 0}
   moveSpeed: 5
---- !u!114 &1943962487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943962483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0208a9f93b5dc5e459060450db8424a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 1
 --- !u!61 &1943962488
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2634,6 +2742,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &1943962489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943962483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!114 &1943962490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943962483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da8ed42c8d8e4e9fe8f78dc3902d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
 --- !u!1 &2045405611
 GameObject:
   m_ObjectHideFlags: 0

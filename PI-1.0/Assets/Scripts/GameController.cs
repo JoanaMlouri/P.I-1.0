@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
     {
         UpdateScoreText();
         nextButton.gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void AddPoints(int points)

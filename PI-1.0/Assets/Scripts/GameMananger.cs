@@ -1,14 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
+using UnityEngine.UIElements;
+using System;
 
-public class GameControllerr : MonoBehaviour
+public class GameMananger : MonoBehaviour
 {
     public int score = 0;
     public Text scoreText;
     public string text;
-    public List<ObjetoClicavel2> clickableObjects = new List<ObjetoClicavel2>();
+    public List<ObjetoClicavel> clickableObjects = new List<ObjetoClicavel>();
     public float points;
     public string nextSceneName; // Nome da cena para trocar
     public UnityEngine.UI.Button nextButton; // Referência para o botão que aparece quando as peças estiverem encaixadas
@@ -33,15 +36,15 @@ public class GameControllerr : MonoBehaviour
         }
     }
 
-    public void RegisterClickableObject(ObjetoClicavel2 clickableObject)
+    public void RegisterClickableObject(ObjetoClicavel clickableObject)
     {
         clickableObjects.Add(clickableObject);
     }
 
-    public void ObjectClicked(ObjetoClicavel2 clickableObject)
+    public void ObjectClicked(ObjetoClicavel clickableObject)
     {
         clickableObjects.Remove(clickableObject);
-        if (clickableObjects.Count == 9)
+        if (clickableObjects.Count == 11)
         {
             ShowNextButton();
         }
@@ -56,4 +59,15 @@ public class GameControllerr : MonoBehaviour
 
         SceneManager.LoadScene("Segunda fase");
     }
+
+    internal void ObjectClicked(ObjetoClicavel2 objetoClicavel2)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal void RegisterClickableObject(ObjetoClicavel2 objetoClicavel2)
+    {
+        throw new NotImplementedException();
+    }
 }
+

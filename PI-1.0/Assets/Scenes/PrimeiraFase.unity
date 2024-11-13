@@ -1128,6 +1128,7 @@ MonoBehaviour:
   leftLimit: -6.92
   rightLimit: 9.34
   basePosition: {fileID: 1376900316}
+  movementParticles: {fileID: 1790073834}
 --- !u!61 &795908489
 BoxCollider2D:
   m_ObjectHideFlags: 0

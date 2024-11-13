@@ -980,7 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e5adf6f5ee84940899711d23e891de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: PrimeiraFase
+  sceneName: Fases
 --- !u!4 &1470185019
 Transform:
   m_ObjectHideFlags: 0

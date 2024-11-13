@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjetoClicavel : MonoBehaviour
+public class ObjetoClicavel2 : MonoBehaviour
 {
-    public int points = 1; // Pontos adicionados por clique
-    private GameController gameController;
+    public int points = 10; // Pontos adicionados por clique
+    private GameControllerr gameController;
     private Collider2D objectCollider;
 
     void Start()
     {
         // Encontrar o GameController na cena
-        gameController = GameObject.Find("GameController").GetComponent<GameController>();
+        gameController = GameObject.Find("GameController").GetComponent<GameControllerr>();
         // Obter o componente Collider do objeto
         objectCollider = GetComponent<Collider2D>();
         // Adicionar este objeto à lista de objetos clicáveis no GameController
