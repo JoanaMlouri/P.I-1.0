@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 169367556}
   - component: {fileID: 169367555}
   - component: {fileID: 169367554}
-  - component: {fileID: 169367553}
   - component: {fileID: 169367557}
   m_Layer: 0
   m_Name: Quadro2
@@ -159,20 +158,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &169367553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169367551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &169367554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -717,7 +702,6 @@ GameObject:
   - component: {fileID: 467768249}
   - component: {fileID: 467768253}
   - component: {fileID: 467768252}
-  - component: {fileID: 467768251}
   - component: {fileID: 467768254}
   m_Layer: 0
   m_Name: Vela
@@ -793,20 +777,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &467768251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467768248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &467768252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,7 +842,6 @@ GameObject:
   - component: {fileID: 490743063}
   - component: {fileID: 490743066}
   - component: {fileID: 490743065}
-  - component: {fileID: 490743064}
   - component: {fileID: 490743067}
   m_Layer: 0
   m_Name: Livros2
@@ -948,20 +917,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &490743064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490743061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &490743065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,7 +983,6 @@ GameObject:
   - component: {fileID: 795908483}
   - component: {fileID: 795908488}
   - component: {fileID: 795908481}
-  - component: {fileID: 795908480}
   - component: {fileID: 795908486}
   - component: {fileID: 795908487}
   - component: {fileID: 795908489}
@@ -1039,20 +993,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &795908480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795908479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: b99e43bf99b3c954f91bde2ad0c1eac2, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &795908481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,7 +1506,6 @@ GameObject:
   - component: {fileID: 1034229618}
   - component: {fileID: 1034229622}
   - component: {fileID: 1034229621}
-  - component: {fileID: 1034229620}
   - component: {fileID: 1034229623}
   m_Layer: 0
   m_Name: Documento
@@ -1642,20 +1581,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 8.84, y: 14.12, z: -31.419}
---- !u!114 &1034229620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034229617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &1034229621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1721,7 +1646,6 @@ GameObject:
   - component: {fileID: 1047157100}
   - component: {fileID: 1047157104}
   - component: {fileID: 1047157103}
-  - component: {fileID: 1047157102}
   - component: {fileID: 1047157105}
   m_Layer: 0
   m_Name: Livros3
@@ -1797,20 +1721,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1047157102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047157099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &1047157103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2283,7 +2193,6 @@ GameObject:
   - component: {fileID: 1295350425}
   - component: {fileID: 1295350429}
   - component: {fileID: 1295350428}
-  - component: {fileID: 1295350427}
   - component: {fileID: 1295350430}
   m_Layer: 0
   m_Name: Estatua
@@ -2359,20 +2268,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1295350427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295350424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &1295350428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3092,7 +2987,6 @@ GameObject:
   - component: {fileID: 1502168716}
   - component: {fileID: 1502168720}
   - component: {fileID: 1502168719}
-  - component: {fileID: 1502168718}
   - component: {fileID: 1502168721}
   m_Layer: 0
   m_Name: Flores
@@ -3168,20 +3062,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1502168718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502168715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &1502168719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8891,7 +8771,6 @@ GameObject:
   - component: {fileID: 2039840229}
   - component: {fileID: 2039840228}
   - component: {fileID: 2039840227}
-  - component: {fileID: 2039840226}
   - component: {fileID: 2039840230}
   m_Layer: 0
   m_Name: Quadro1
@@ -8915,20 +8794,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2039840226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2039840224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &2039840227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9319,7 +9184,6 @@ GameObject:
   - component: {fileID: 2112300561}
   - component: {fileID: 2112300565}
   - component: {fileID: 2112300564}
-  - component: {fileID: 2112300563}
   - component: {fileID: 2112300566}
   m_Layer: 0
   m_Name: Livros1
@@ -9395,20 +9259,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2112300563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112300560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &2112300564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9584,8 +9434,6 @@ GameObject:
   - component: {fileID: 2145949235}
   - component: {fileID: 2145949234}
   - component: {fileID: 2145949238}
-  - component: {fileID: 2145949237}
-  - component: {fileID: 2145949236}
   - component: {fileID: 2145949239}
   m_Layer: 0
   m_Name: "Ta\xE7a"
@@ -9661,34 +9509,6 @@ Transform:
   m_Father: {fileID: 1461983724}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2145949236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2145949233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
---- !u!114 &2145949237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2145949233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6030c11b1bb3dc6438cc1a76179264cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {x: -9.14, y: 0.91, z: 0}
-  moveSpeed: 5
 --- !u!61 &2145949238
 BoxCollider2D:
   m_ObjectHideFlags: 0
