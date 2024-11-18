@@ -26,6 +26,7 @@ public class SimpleCutscene : MonoBehaviour
     {
         cutscenePanel.SetActive(true);
         StartCoroutine(PlayCutscene());
+        Time.timeScale = 1;
     }
 
     IEnumerator PlayCutscene()
