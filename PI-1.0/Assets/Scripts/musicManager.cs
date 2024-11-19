@@ -8,14 +8,15 @@ public class MusicManager : MonoBehaviour
 
     void Awake()
     {
+        // Verifica se já existe uma instância do MusicManager
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Faz o objeto persistir
+            DontDestroyOnLoad(gameObject); // Não destrói ao mudar de cena
         }
         else
         {
-            Destroy(gameObject); // Remove duplicatas
+            Destroy(gameObject); // Impede duplicação de som
         }
     }
 }
