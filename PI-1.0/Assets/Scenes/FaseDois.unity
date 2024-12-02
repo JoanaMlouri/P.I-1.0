@@ -219,7 +219,6 @@ GameObject:
   - component: {fileID: 64834922}
   - component: {fileID: 64834926}
   - component: {fileID: 64834928}
-  - component: {fileID: 64834927}
   - component: {fileID: 64834924}
   m_Layer: 0
   m_Name: pixil-frame-0 (23)
@@ -335,18 +334,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &64834927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64834921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &64834928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -845,7 +832,6 @@ GameObject:
   - component: {fileID: 379697771}
   - component: {fileID: 379697775}
   - component: {fileID: 379697777}
-  - component: {fileID: 379697776}
   - component: {fileID: 379697773}
   m_Layer: 0
   m_Name: pixil-frame-0 (24)
@@ -961,18 +947,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &379697776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379697770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &379697777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1419,7 +1393,6 @@ GameObject:
   - component: {fileID: 703727805}
   - component: {fileID: 703727809}
   - component: {fileID: 703727811}
-  - component: {fileID: 703727810}
   - component: {fileID: 703727808}
   m_Layer: 0
   m_Name: pixil-frame-0 (17)
@@ -1535,18 +1508,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &703727810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703727804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &703727811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1842,7 +1803,6 @@ GameObject:
   - component: {fileID: 849015449}
   - component: {fileID: 849015451}
   - component: {fileID: 849015453}
-  - component: {fileID: 849015452}
   m_Layer: 0
   m_Name: pixil-frame-0 (14) (1)
   m_TagString: Untagged
@@ -1957,18 +1917,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
---- !u!114 &849015452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849015446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &849015453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1994,7 +1942,6 @@ GameObject:
   - component: {fileID: 939030052}
   - component: {fileID: 939030056}
   - component: {fileID: 939030058}
-  - component: {fileID: 939030057}
   - component: {fileID: 939030054}
   m_Layer: 0
   m_Name: pixil-frame-0 (21)
@@ -2110,18 +2057,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &939030057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939030051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &939030058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3246,7 +3181,6 @@ GameObject:
   - component: {fileID: 1866411544}
   - component: {fileID: 1866411548}
   - component: {fileID: 1866411550}
-  - component: {fileID: 1866411549}
   - component: {fileID: 1866411546}
   m_Layer: 0
   m_Name: pixil-frame-0 (22)
@@ -3362,18 +3296,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &1866411549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866411543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1866411550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3400,7 +3322,6 @@ GameObject:
   - component: {fileID: 1943962486}
   - component: {fileID: 1943962488}
   - component: {fileID: 1943962490}
-  - component: {fileID: 1943962489}
   m_Layer: 0
   m_Name: pixil-frame-0 (18) (1)
   m_TagString: Untagged
@@ -3515,18 +3436,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
---- !u!114 &1943962489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943962483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1943962490
 MonoBehaviour:
   m_ObjectHideFlags: 0
