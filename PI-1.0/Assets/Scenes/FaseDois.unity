@@ -347,8 +347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &64834928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,8 +820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &210149710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -977,8 +973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &379697777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1553,8 +1547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &703727811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1977,8 +1969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &849015453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2054,12 +2044,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 65e6cf56e25468945992f7b4a2607265, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7657c5cfe6d132d46a4daa0f57e7e3db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2072,14 +2062,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939030051}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7972404, y: 0.5381164, z: 0}
-  m_LocalScale: {x: 0.6935982, y: 0.59600556, z: 4.663455}
+  m_LocalRotation: {x: 0.030323673, y: -0, z: -0, w: 0.99954015}
+  m_LocalPosition: {x: -0.7972404, y: 0.5415, z: -0.001}
+  m_LocalScale: {x: 0.36268094, y: 0.31164998, z: 2.43851}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1807245951}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3.475, y: 0, z: 0}
 --- !u!114 &939030054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2111,8 +2101,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2132,8 +2122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &939030058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2391,7 +2379,7 @@ Transform:
   m_GameObject: {fileID: 1017771750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.919999, y: -3.6100001, z: 0}
-  m_LocalScale: {x: 4.6634545, y: 4.663455, z: 4.663455}
+  m_LocalScale: {x: 2.3731892, y: 2.3731894, z: 2.3731894}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2438,12 +2426,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 65e6cf56e25468945992f7b4a2607265, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7657c5cfe6d132d46a4daa0f57e7e3db, type: 3}
   m_Color: {r: 0.16862746, g: 0.13725491, b: 0.07450981, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3140,8 +3128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &1676786343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3472,8 +3458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &1866411550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3627,8 +3611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9254b1176cb46442a9c17873ed87d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverTexture: {fileID: 2800000, guid: 56adf392a7d080448ab9b85e27356d2e, type: 3}
-  hotspot: {x: 0, y: 0}
 --- !u!114 &1943962490
 MonoBehaviour:
   m_ObjectHideFlags: 0
